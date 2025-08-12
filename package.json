@@ -1,0 +1,19 @@
+{
+  "name": "bestwebterminal",
+  "version": "1.0.0",
+  "description": "A real Linux terminal in the browser",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "node-pty": "^0.10.1",
+    "socket.io": "^4.7.2"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "author": "Ethem",
+  "license": "MIT"
+}
